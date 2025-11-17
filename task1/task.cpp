@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void check_number()
+int main()
 {
     float num = 0;
     cout << "Напишіть своє число: ";
@@ -20,12 +20,5 @@ void check_number()
     {
         cout << num << " менше ніж 0\n";
     }
-
-    return;
-}
-
-int main()
-{
-    check_number();
     return 0;
 }
